@@ -1,6 +1,18 @@
-.active{
-    color: rgb(90, 196, 90);
+.active {
+	color: var(--color-green);
 }
-.inactive{
-    color: red;
+.inactive {
+	color: var(--color-red);
+}
+
+.inactive,
+.active {
+	display: flex;
+	align-items: center;
+    font-size: var(--text-sm);
+}
+.icon {
+	height: 1rem;
+	width: 1rem;
+    margin-right: 0.25rem;
 }
